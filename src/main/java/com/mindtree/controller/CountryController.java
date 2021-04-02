@@ -25,6 +25,7 @@ public class CountryController {
 	public String EnterDetails(Model m) {
 		Country m1 = new Country();
 		m.addAttribute("country", m1);
+		 System.out.println("Hello");
 		return "detail-page";
 	}
 
